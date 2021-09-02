@@ -14,6 +14,7 @@ background-color: rgba(251, 251, 251, 0.308);
   nav{
       background-color: rgba(35, 45, 42, 0.541);
       border-radius: 25px;
+      font-size: 25px;
   }
 a{
     text-align: center;
@@ -49,4 +50,8 @@ footer{
 }
 #3d{
     text-align: right;
+   }
+   .LOGO{
+border-radius: 20px;
+top: 10px;
    }
