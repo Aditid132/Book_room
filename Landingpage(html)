@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book_Room</title>
+    <link rel="stylesheet" type="text/css" href="Landingpage.css"> 
+  </head>
+  <body>
+    <div class="line"></div>
+    <div class="wrapper">
+      <header role="banner">
+          <h1 style="color: rgb(252, 252, 252);font-size: 200px;" >Book_Room</h1>
+        <nav role="navigation">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="https://docs.google.com/spreadsheets/d/1UIZMZPZgZnQCjS8bdyHArp4g1AOpHbDlBwoVraX8mzk/edit#gid=0">Books</a>
+              <a href="#">Contacts</a>
+              <a href="about.html">Profile</a>
+          </nav>
+      </header>
+      <main role="main">
+        <section class="sec-intro" role="section">
+         <div id="3d"> <img src="https://images.all-free-download.com/images/graphiclarge/book_vector_266332.jpg" alt="3d book pic" class="img1"/> 
+         </div><p style="color: rgb(38, 38, 36);background-color: rgb(225, 182, 196); font-size: 30px; font-style: italic;">
+            Hello there, Welcome to the book_room explore our exclusive
+            collection of books and do login in and get recommendations for the
+            books of your interest.
+          </p>
+          <span class="create">
+            <button><a href="index.html" style="color: black;font-size: 20px;">Create your account</a></button></span
+          >
+        </section>
+        <span class="bot"><button>
+        <B style="font-size: 20px;" >recommendingbot</B></button></span>
+        
+        <div>
+          <h2 style="color: ivory; font-size: 60px;"><u>BOOKS</u></h2>
+          <span class="column">
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1466865542i/18144590._UY2404_SS2404_.jpg" alt="Book1" onclick="myFunction(this);" style="width: 100px;" />
+          </span>
+          <span class="column">
+            <img src="https://static.wixstatic.com/media/3284fd_0fbe3ed3e59e462a8e7749be83741c63~mv2_d_1284_2094_s_2.jpg/v1/fill/w_1000,h_1631,al_c,q_90,usm_0.66_1.00_0.01/3284fd_0fbe3ed3e59e462a8e7749be83741c63~mv2_d_1284_2094_s_2.jpg" alt="Book2" onclick="myFunction(this);"style="width: 80px;/>
+          </span>
+          <span class="column">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81VStYnDGrL.jpg" alt="Book3" onclick="myFunction(this);"style="width: 80px;" />
+          </span>
+          <span class="column">
+            <img src="https://cdn2.penguin.com.au/covers/original/9781784752637.jpg" alt="Book4" onclick="myFunction(this);" style="width: 80px;"/>
+          </span>
+          <span class="column">
+            <img src="https://m.media-amazon.com/images/I/41DH5otf8qL.jpg" alt="Book5" onclick="myFunction(this);" style="width: 80px;"/>
+          </span>
+        </div>
+        
+        <div class="what">
+            <h2 style="color:ivory;font-size: 40px;"><u>What will you discover?</u></h2>
+            <div>
+            <span class="column">
+                <a href="https://ibb.co/4SCdyKF"></a>
+                <img src="https://i.ibb.co/4SCdyKF/2.png" alt="Nonfiction" onclick="myFunction(this);" />
+                    <A href="type of book.html" style="background-color: rgb(8, 4, 252); ">Nonfiction</A>
+              </span>
+            </div>
+        <div>
+              <span class="column">
+                <a href="https://ibb.co/DKmdF2P"></a>
+                <img src="https://i.ibb.co/DKmdF2P/1.png" alt="Fiction" onclick="myFunction(this);" />
+                  <A href="type of book.html"style="background-color: rgb(8, 4, 252);">Fiction</A>
+              </span>
+            </div>
+            <div> <span class="column">
+                <a href="https://ibb.co/pzPVQML"></a>
+                <img src="https://i.ibb.co/pzPVQML/4.png" alt="Science fiction" onclick="myFunction(this);"/>
+                    <A href="type of book.html" style="background-color: rgb(8, 4, 252);">Science fiction</A>
+              </span></div>
+              <div> <span class="column">
+                <a href="https://ibb.co/2vhb767"></a>
+                <img src="https://i.ibb.co/2vhb767/3.png" alt="classics" onclick="myFunction(this);" />
+                    <A href="type of book.html" style="background-color: rgb(8, 4, 252);">classics</A>
+              </s</div>
+        </div>
+    
+        <footer>
+            <nav role="navigation">
+                  <a href="#">Home</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Books</a>
+                  <a href="#">Contacts</a>
+                  <a href="about.html">Profile</a>
+              </nav>
+            <p class="copy" style="text-align-last: center; color: ivory;">&copy; Book_Room 2021</p>
+          </footer>
+      </main>
+    </div>
+  </body>
+</html>
