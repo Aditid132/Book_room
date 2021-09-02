@@ -1,73 +1,57 @@
-body  
-{  
-    margin: 5px;  
-    padding:5px;  
-    background-image: url(https://i.pinimg.com/736x/c8/b0/7e/c8b07e380215edaaa1903769586a61dc--music-books-book-stuff.jpg);
-    border-radius: 30%;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   text-align: center;
-}  
-.login{  
-        width: 382px;  
-        overflow: hidden;  
-        margin: auto;  
-        margin: 20 0 0 450px;  
-        padding: 80px;  
-        color: aliceblue;
-        background: #b7d33c8a;  
-        border-radius: 35px ;  
-          
-}  
-h2{  
-    text-align: center;  
-    color: #ffffff;  
-    padding: 20px;  
-    background-color: rgba(0, 38, 255, 0.89);
-}  
-label{  
-    color: #010400;  
-    font-size: 97%;  
-}  
-#Uname{  
-    width: 300px;  
-    height: 30px;  
-    border: none; 
-    color: #ffffff; 
-    border-radius: 8px;  
-    padding-left: 8px; 
-    background-color: #010400af; 
-}  
-#Pass{  
-    color: #ffffff;
-    width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 8px;  
-    padding-left: 8px; 
-    background-color: #010400af; 
-      
-}  
-#log{  
-    width: 150px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 8px;
-    padding-left: 7px;  
-font-size: 16px;
-    color: rgb(3, 0, 0); 
-    background-color: #11c488; 
-  
-  
-}  
-span{  
-    color: white;  
-    font-size: 17px;  
-}  
-a{  
-    float:inline-end;  
-    background: #b7d33c8a;  
-}  
-b{
-    color: aliceblue;
-    font-size: 15px;
+*{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 25px;
+    text-align: center;
 }
+body {
+    background-color: lightblue;
+    background-image:url(https://i.pinimg.com/736x/c8/b0/7e/c8b07e380215edaaa1903769586a61dc--music-books-book-stuff.jpg);
+  }
+  .wrapper{
+background-color: rgba(251, 251, 251, 0.308);
+  }
+  nav{
+      background-color: rgba(35, 45, 42, 0.541);
+      border-radius: 25px;
+      font-size: 25px;
+  }
+a{
+    text-align: center;
+   color: azure;
+}
+#img1{
+    width: 60px;
+ position:absolute;
+
+}
+button{
+    background-color: chartreuse;
+    text-decoration-color: black;
+}
+.create{
+    
+    object-position: 27px;
+}
+.what{
+background-color:rgba(241, 245, 25, 0.275);
+border-radius: 25px;
+}
+footer{
+    background-color: rgba(231, 39, 39, 0.583);
+    border-radius: 25px;
+}
+.bot{
+   margin-left: 75%;
+ padding: 70px;
+
+
+
+}
+#3d{
+    text-align: right;
+   }
+   .LOGO{
+border-radius: 20px;
+top: 10px;
+   }
