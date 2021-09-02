@@ -11,7 +11,8 @@
     <div class="line"></div>
     <div class="wrapper">
       <header role="banner">
-          <h1 style="color: rgb(252, 252, 252);font-size: 200px;" >Book_Room</h1>
+        <a href="https://ibb.co/DMxVXjf"><img src="https://i.ibb.co/DMxVXjf/Whats-App-Image-2021-09-03-at-12-06-52-AM.jpg" alt="Whats-App-Image-2021-09-03-at-12-06-52-AM" border="0" class="LOGO""</a>
+        <h1 style="color: rgb(252, 252, 252);font-size: 200px;" >Book_Room</h1>
         <nav role="navigation">
               <a href="#">Home</a>
               <a href="#">About Us</a>
@@ -86,7 +87,7 @@
             <nav role="navigation">
                   <a href="#">Home</a>
                   <a href="#">About Us</a>
-                  <a href="#">Books</a>
+                  <a href="https://docs.google.com/spreadsheets/d/1UIZMZPZgZnQCjS8bdyHArp4g1AOpHbDlBwoVraX8mzk/edit#gid=0">Books</a>
                   <a href="#">Contacts</a>
                   <a href="about.html">Profile</a>
               </nav>
