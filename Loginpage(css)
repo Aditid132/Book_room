@@ -1,0 +1,73 @@
+body  
+{  
+    margin: 5px;  
+    padding:5px;  
+    background-image: url(https://i.pinimg.com/736x/c8/b0/7e/c8b07e380215edaaa1903769586a61dc--music-books-book-stuff.jpg);
+    border-radius: 30%;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        color: aliceblue;
+        background: #b7d33c8a;  
+        border-radius: 35px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #ffffff;  
+    padding: 20px;  
+    background-color: rgba(0, 38, 255, 0.89);
+}  
+label{  
+    color: #010400;  
+    font-size: 97%;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none; 
+    color: #ffffff; 
+    border-radius: 8px;  
+    padding-left: 8px; 
+    background-color: #010400af; 
+}  
+#Pass{  
+    color: #ffffff;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 8px;  
+    padding-left: 8px; 
+    background-color: #010400af; 
+      
+}  
+#log{  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 8px;
+    padding-left: 7px;  
+font-size: 16px;
+    color: rgb(3, 0, 0); 
+    background-color: #11c488; 
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float:inline-end;  
+    background: #b7d33c8a;  
+}  
+b{
+    color: aliceblue;
+    font-size: 15px;
+}
