@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TYPE OF BOOK</title>
+  </head>
+  <body>
+    <div>
+      <h2><u>Type of books</u></h2>
+      Do you have a favorite type of book, either fiction or nonfiction? Are you
+      thinking about branching out and enjoying a new genre? If so, a list of
+      book types or genres can help you choose what to read next. See if any of
+      the below subtypes catch your eye.
+      <h3><u>Two Different Types of Books</u></h3>
+      <p>
+        All books are classified as either fiction or nonfiction. Within these
+        two types of books, you’ll find dozens of more specific types, or genres
+      </p>
+      <h4><u>Nonfiction Books</u></h4>
+      Nonfiction books contain factual information, such as biographies and
+      history books.<br />
+
+      Examples of nonfiction books include:
+      <ul>
+        <li>
+          Most biographies are nonfiction. We say "most" biographies, because a
+          biography of a fictional character is really a fictional book.
+        </li>
+        <li>
+          The Diary of Anne Frank is nonfiction and a journal, making it a
+          nonfiction journal.
+        </li>
+        <li>
+          Most Dictionaries and encyclopedias are nonfiction because they
+          contain facts about words.
+        </li>
+        <li>Travel books such as an atlas are nonfiction.</li>
+        <li>
+          "How to” books that teach real skills, like the classic Betty Crocker
+          Cookbook are considered factual.
+        </li>
+      </ul>
+      <h4><u>Fiction Books</u></h4>
+      Fiction books contain a story that the author made up, such as romance or
+      children's books. The most commonly read works are works of fiction.
+      Perhaps some of their elements are based on hints of truth, but they have
+      been elaborated, fabricated, and used to embellish into a new story.<br />
+
+      Some examples of classic fiction books are :
+      <ul>
+        <li>The Sun Also Rises by Ernest Hemingway</li>
+        <li>To Kill A Mockingbird by Harper Lee</li>
+        <li>Their Eyes Were Watching God by Zora Neale Hurston</li>
+      </ul>
+    </div>
+    <hr />
+    <p>
+      <a
+        href="https://docs.google.com/spreadsheets/d/1UIZMZPZgZnQCjS8bdyHArp4g1AOpHbDlBwoVraX8mzk/edit?usp=sharing"
+        >check some book list</a
+      >
+    </p>
+  </body>
+</html>
