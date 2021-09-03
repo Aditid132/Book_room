@@ -34,8 +34,8 @@
           >
         </section>
         <span class="bot"><button>
-        <B style="font-size: 20px;" >recommendingbot</B></button></span>
-        
+       <a href="https://colab.research.google.com/drive/1CcnFosSZm5FprEpkUBtGN5E7Tsgs0Br0?usp=sharing" target="_blank" style="font-size: 20px;">recommendingbot</a></button></span>
+        <p style="background-color: burlywood;">BOT UPLOADING FLIE FOR BOOK RECOMMENDATIONS <A href="https://docs.google.com/spreadsheets/d/1UIZMZPZgZnQCjS8bdyHArp4g1AOpHbDlBwoVraX8mzk/edit#gid=0">CHECK HERE</A> </p>
         <div>
           <h2 style="color: ivory; font-size: 60px;"><u>BOOKS</u></h2>
           <span class="column">
