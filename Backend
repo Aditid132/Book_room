@@ -1,1 +1,56 @@
+#description : Build a book recommendation system 
+#import the libraries
+import numpy as np
+import pandas as pd
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import CountVectorizer
+#Load the data
+from google.colab import files
+files.upload()
+#store the data
+df= pd.read_csv('books1.csv', encoding='unicode_escape' , error_bad_lines=False)
+#show the data
+df
+#create a list of columns to keep
+columns=['Title','Author','Interest']
+#create a function to combine the important columns/features
+def combine_features(data):
+  features=[]
+  for i in range(0,data.shape[0]):
+    features.append(data['Title'][i]+' '+data['Authors'][i]+' '+data['Interest'][i])
+  return features
+#create a column to store the combined features
+df['combined_features']=combine_features(df)
+#show the data
+df
+#convert the text from the new column to a matrix of word counts
+cm=CountVectorizer().fit_transform(df['combined_features'])
+#get the cosine similarity matrix from the count matrix
+cs=cosine_similarity(cm)
+#print the scores
 
+#get the title of the book the reader likes
+Title=df['Title'][1]
+#show the title
+Title
+#find the book id of the book that user likes
+Book_Id=df[df.Title==Title]['Book_Id'].values[0]
+#show the book_Id
+Book_Id
+#create a list of tuples in the form(book_id, similarity scores)
+scores=list(enumerate(cs[Book_Id]))
+
+#sort the list of similar books in descending order
+sorted_scores=sorted(scores,key=lambda x:x[1],reverse=True)
+sorted_scores=sorted_scores[1:]
+#show the sorted scores
+sorted_scores
+#create a loop to print the first 5 books from the sorted list
+j=0
+print('The 5 most recommended books are: \n')
+for item in sorted_scores:
+  Book_Title=df[df.Book_Id==item[0]] ['Title']
+  print(j+1,Book_Title)
+  j=j+1
+  if j>=5:
+    break 
